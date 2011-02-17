@@ -1,0 +1,20 @@
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-17 10:23:00) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 140ms (View: 139, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-17 10:23:21) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"X13lKfINyhCoOKVui3z6YM7IupystVg47DpKaOUv6uY="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-17 10:23:36) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"X13lKfINyhCoOKVui3z6YM7IupystVg47DpKaOUv6uY="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
