@@ -1,0 +1,49 @@
+<div class="nflqb-form" align="left">
+	<div class="logo" align="center">QUARTERBACK<br />RATING<br />CALCULATOR</div>
+	<% if !@errors.nil? && @errors != false && @errors.count > 0 %>
+		<div id="notice">
+			<div style="font-weight:bold;color:#B30000;text-align:left;padding-top:0px;margin-top:-5px;">Please Correct the Following Errors:</div>
+			<ul>
+				<% @errors.each do |error| %>
+					<li><%= error %></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+	<% if !@results.nil? && @results.count > 0 %>
+		<div id="<%= @results[:rating_color] %>" style="padding: 20px;">
+			<div style="display:inline;margin:0;padding:0;"><%= image_tag(@results[:check_color], :align => 'middle', :border => 0) %></div>
+			<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;"><%= @results[:passer_rating] %></span></div>
+		</div>
+	<% end %>
+	<% form_for :rating, :url => { :controller => 'rating', :action => 'index' } do |form| %>
+		<div align="center">
+			<fieldset>
+				<legend>Please Enter the Quarterback&#39;s Statistics</legend>
+				<div>
+					<%= form.label :attempts, 'Passing Attempts:' %>
+					<%= form.text_field :attempts %>
+				</div>
+				<div>
+					<%= form.label :completions, 'Passing Completions:' %>
+					<%= form.text_field :completions %>
+				</div>
+				<div>
+					<%= form.label :yards, 'Passing Yards:' %>
+					<%= form.text_field :yards %>
+				</div>
+				<div>
+					<%= form.label :touchdowns, 'Passing Touchdowns:' %>
+					<%= form.text_field :touchdowns %>
+				</div>
+				<div>
+					<%= form.label :interceptions, 'Interceptions:' %>
+					<%= form.text_field :interceptions %>
+				</div>
+				<%= submit_tag 'Calculate!', :class => 'submit' %>
+				<%= submit_tag 'Reset', { :name => 'reset', :class => 'reset', :type => 'reset' } %>
+				<br /><br />
+			</fieldset>
+		</div>
+	<% end %>
+</div>
