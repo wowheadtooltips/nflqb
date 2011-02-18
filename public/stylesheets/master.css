@@ -25,7 +25,7 @@ tt {
 }
 
 /* default forms */
-.nflqb-form div.logo {
+div.logo {
 	/*background: #FFFFFF url('../images/nfl-logo.png') no-repeat left middle !important;*/
 	background-color: #FFFFFF;
 	background-image: url('../images/nfl-logo.png') !important;
@@ -38,6 +38,7 @@ tt {
 	height: 133px;
 	text-align: left;
 	color: #003972;
+	width: 250px;
 }
 .nflqb-form legend {
 	color: #fff;
@@ -57,9 +58,10 @@ tt {
 	text-align: right;
 	padding-top: 0.2em;
 	margin-right: 0.1em;
-	display: block;
+	/*display: block;*/
 	font-weight: bold;
 	font-family: verdana;
+	color: #003972;
 }
 .nflqb-form input {
 	margin-left: 0.5em;
@@ -125,6 +127,38 @@ div#results-normal {
 	font-size: 14px;
 }
 
+/* fun facts */
+div#facts {
+	width: 90%;
+	background-color: #F0F0F0;
+	border: 2px solid #003972;
+	padding: 10px;
+	margin: 15px;
+	font-family: verdana;
+	text-align: left;
+}
+div#facts a:link, div#facts a:active, div#facts a:visited {
+	text-decoration: none;
+	color: #003972;
+}
+div#facts a:hover {
+	text-decoration: underline;
+	color: #003972;
+}
+div#facts ol, div#facts ul {
+	font-weight: bold;
+	color: #003972;
+}
+div#facts ol li, div#facts ul li {
+	margin-left: 15px;
+	padding-left: 5px;
+}
+div#facts ol li span, div#facts ul li span {
+	font-weight: normal;
+	color: #000000;
+}
+
+
 /* notices/errors */
 div#notice {
 	border: 2px solid red;
@@ -139,7 +173,6 @@ div#notice ul {
 	color: #B30000;
 	margin-left: 15px;
 }
-
 
 /* footer */
 div.footer {

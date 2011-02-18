@@ -3904,3 +3904,744 @@ Processing RatingController#index (for 98.84.98.50 at 2011-02-17 10:42:36) [GET]
 Rendering template within layouts/rating
 Rendering rating/index
 Completed in 19ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:48:18) [GET]
+
+NameError (undefined local variable or method `server_uptime' for #<RatingController:0xb6e88ef4>):
+  app/controllers/rating_controller.rb:3:in `index'
+
+Rendered rescues/_trace (35.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:48:43) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:49:00) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:49:41) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:50:12) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 94ms (View: 92, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:51:50) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `strftime' for "01:51:50":String) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:4:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:55:38) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `strftime' for "01:55:38":String) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:4:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (42.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:55:58) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `strftime' for "01:55:58":String) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:4:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (39.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:59:57) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `include' for #<ActionView::Base:0xb703ea3c>) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:3:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (43.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:14:08) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `include' for #<ActionView::Base:0xb6eb0454>) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:3:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (37.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:21:42) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `parsedate' for #<ActionView::Base:0xb70499dc>) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:4:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (106.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:40:14) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `strftime' for [nil, nil, nil, 2, 40, 14, nil, nil]:Array) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (41.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:41:27) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (no implicit conversion from nil to integer) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:6:in `[]='
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/helpers/rating_helper.rb:6:in `each'
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (40.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:42:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (no implicit conversion from nil to integer) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:6:in `[]='
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/helpers/rating_helper.rb:6:in `each'
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:42:42) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (no implicit conversion from nil to integer) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:6:in `[]'
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/helpers/rating_helper.rb:6:in `each'
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (38.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:43:32) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:6:in `[]='
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/helpers/rating_helper.rb:6:in `each'
+    app/helpers/rating_helper.rb:6:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (48.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:43:44) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `strftime' for #<Array:0xb6e1d744>) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:7:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (40.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:44:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:55:00) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `strftime' for [1990, 9, 6, 2, 55, 0, "UTC", 4]:Array) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:8:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (44.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 02:57:32) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 03:03:23) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (wrong number of arguments (7 for 0)) on line #89 of app/views/layouts/rating.html.erb:
+86: 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
+87: 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
+88: 				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+89: 				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
+90: 			</p>
+91: 		</div>
+92: 	</body>
+
+    app/helpers/rating_helper.rb:8:in `initialize'
+    app/helpers/rating_helper.rb:8:in `new'
+    app/helpers/rating_helper.rb:8:in `server_uptime'
+    app/views/layouts/rating.html.erb:89
+
+Rendered rescues/_trace (43.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 03:03:35) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 03:06:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 55ms (View: 53, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 04:15:36) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 1676ms (View: 1675, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 04:43:09) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 04:47:37) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 28ms (View: 27, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 04:57:58) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 04:58:14) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 04:58:47) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 04:58:53) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:00:04) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 139ms (View: 138, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:00:49) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 2570ms (View: 2568, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:01:13) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 98ms (View: 95, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:01:50) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:02:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:03:16) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:04:01) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:04:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:04:41) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:04:49) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:06:36) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:07:21) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:10:56) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:13:11) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:17:49) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:18:18) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:19:45) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:20:39) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:21:10) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:21:57) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:22:10) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:22:37) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:26:31) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:26:51) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:27:19) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:30:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:30:47) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:31:51) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 106ms (View: 104, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:32:15) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:32:55) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 104ms (View: 102, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:33:11) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 32ms (View: 30, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:34:32) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:34:49) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:35:06) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:35:24) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:35:49) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:36:28) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:36:40) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:37:18) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:37:34) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:38:00) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:38:15) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:38:21) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:38:29) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+
+ArgumentError (invalid value for Float(): ""):
+  app/controllers/rating_controller.rb:6:in `Float'
+  app/controllers/rating_controller.rb:6:in `index'
+  app/controllers/rating_controller.rb:6:in `each'
+  app/controllers/rating_controller.rb:6:in `index'
+
+Rendered rescues/_trace (102.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:39:04) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+
+ArgumentError (invalid value for Float(): ""):
+  app/controllers/rating_controller.rb:10:in `Float'
+  app/controllers/rating_controller.rb:10:in `index'
+  app/controllers/rating_controller.rb:10:in `each'
+  app/controllers/rating_controller.rb:10:in `index'
+
+Rendered rescues/_trace (36.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:40:15) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+
+ArgumentError (invalid value for Float(): ""):
+  app/controllers/rating_controller.rb:6:in `Float'
+  app/controllers/rating_controller.rb:6:in `index'
+  app/controllers/rating_controller.rb:6:in `each'
+  app/controllers/rating_controller.rb:6:in `index'
+
+Rendered rescues/_trace (213.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:40:38) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"q3TbWwocHfdXk7PUimSBUHnrP1VDyHvA3SREmFt6ERU="}
+
+NoMethodError (undefined method `/' for "":String):
+  app/controllers/rating_controller.rb:20:in `index'
+
+Rendered rescues/_trace (106.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:40:59) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://208.64.31.8/]

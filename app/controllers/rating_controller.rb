@@ -1,9 +1,9 @@
 class RatingController < ApplicationController
-  def index
+  def index  
   	# see if they submitted the form
   	if !params[:commit].nil? && params[:commit].downcase.gsub('!', '') == 'calculate'
   		fields = params[:rating]						# get the field values from the form input
-  		fields.each {|key, value| fields[key] = Float(value)}
+  		fields.each {|key, value| fields[key] = Float(value) if !value.nil? && !value.empty?}
   		@errors = validate_fields(fields)		# perform basic validation
 
   		# if there were no errors, we can continue

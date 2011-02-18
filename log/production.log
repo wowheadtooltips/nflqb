@@ -18,3 +18,189 @@ Processing RatingController#index (for 98.84.98.50 at 2011-02-17 10:23:36) [POST
 Rendering template within layouts/rating
 Rendering rating/index
 Completed in 7ms (View: 6, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-17 20:43:33) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 164ms (View: 162, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:44:52) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 48ms (View: 47, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:47:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:48:00) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 17ms (View: 17, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 01:50:07) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 17ms (View: 17, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 128.242.241.122 at 2011-02-18 02:50:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 187ms (View: 148, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 199.59.149.22 at 2011-02-18 02:50:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 122ms (View: 121, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 67.195.114.59 at 2011-02-18 02:50:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 54ms (View: 54, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 65.52.4.133 at 2011-02-18 02:50:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 138ms (View: 138, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 65.52.19.32 at 2011-02-18 02:50:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 144ms (View: 144, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 38.113.234.180 at 2011-02-18 02:50:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 143ms (View: 141, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 66.249.67.136 at 2011-02-18 02:50:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 185ms (View: 185, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 38.113.234.180 at 2011-02-18 02:50:29) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 97ms (View: 97, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 84.49.220.197 at 2011-02-18 02:50:29) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 72.30.142.222 at 2011-02-18 02:50:30) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 21, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 72.30.142.222 at 2011-02-18 02:50:30) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 74.112.128.60 at 2011-02-18 02:50:42) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 18, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 184.73.241.30 at 2011-02-18 02:50:47) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 18, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 65.52.58.121 at 2011-02-18 02:50:49) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 14ms (View: 14, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 65.52.54.253 at 2011-02-18 02:50:49) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 12ms (View: 12, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 50.16.20.4 at 2011-02-18 02:51:07) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 187ms (View: 187, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 204.236.254.109 at 2011-02-18 02:51:09) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 89.151.99.94 at 2011-02-18 02:52:57) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 18, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 89.151.99.94 at 2011-02-18 02:53:04) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 1812ms (View: 1812, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 216.24.131.119 at 2011-02-18 02:56:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 46ms (View: 45, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 72.13.91.42 at 2011-02-18 03:12:02) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 52ms (View: 52, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 84.49.220.197 at 2011-02-18 03:50:31) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 12ms (View: 12, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 67.195.114.59 at 2011-02-18 04:05:54) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 124ms (View: 123, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 184.72.94.177 at 2011-02-18 04:21:15) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 122ms (View: 121, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 184.72.94.177 at 2011-02-18 04:21:15) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 94.228.34.235 at 2011-02-18 05:30:22) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 18, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]

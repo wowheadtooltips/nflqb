@@ -9,7 +9,8 @@
 	</head>
 	<body>
 		<div align="center">
-			<div align="center" style="width:25%;">
+			<div class="logo" align="center">QUARTERBACK<br />RATING<br />CALCULATOR</div>
+			<div align="center" style="width:70%;display:block;">
 				<%= yield %>
 			</div>
 			<br />
@@ -39,7 +40,7 @@
 						</ol>
 					<% else %>
 						<div style="font-weight:bold;color:#003972;text-align:left;border-bottom:1px solid #003972;margin-bottom:10px;font-size:14px;">The Results!!!</div>
-						<div style="font-style:italic;text-align:center">If any of the 4 calculation&#39;s value is less than 0 or greater than 2.375, then their value is changed to 0 and 2.375 respectively.</div><br />
+						<div style="font-style:italic;text-align:center">If any of the 4 calculation&#39;s value are less than 0 or greater than 2.375, then their value is changed to 0 and 2.375 respectively.</div><br />
 						<ul>
 							<li>
 								<span>
@@ -78,14 +79,15 @@
 							</li>
 						</ul>
 					<% end %>
-				</div>
+				</div>				
 			</div>
 		</div>
 		<div class="footer">
 			<p>
 				&copy; 2011 <%= link_to "Adam Koch", "http://crackpot.ws" %>.  Not associated with the NFL or any of its properties.<br />
 				Powered by <%= link_to 'Ruby on Rails', 'http://rubyonrails.org' %><br />
-				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a>
+				<a href="http://validator.w3.org/check/referer" title="valid XHTML">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="valid CSS">CSS</a><br />
+				<strong>Server Uptime:</strong>&nbsp;&nbsp;<%= server_uptime %>
 			</p>
 		</div>
 	</body>
