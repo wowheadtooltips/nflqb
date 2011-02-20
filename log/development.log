@@ -4645,3 +4645,2283 @@ Processing RatingController#index (for 98.84.98.50 at 2011-02-18 05:40:59) [GET]
 Rendering template within layouts/rating
 Rendering rating/index
 Completed in 15ms (View: 14, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 16:54:32) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 50ms (View: 49, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:07:14) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 85ms (View: 84, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:07:42) [GET]
+  Parameters: {"url"=>"http://nfl.com"}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/?url=http%3A%2F%2Fnfl.com]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:08:26) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:09:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:10:01) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:35:17) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+NoMethodError (undefined method `/' for "":String):
+  app/controllers/rating_controller.rb:20:in `index'
+
+Rendered rescues/_trace (31.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:36:00) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+NoMethodError (undefined method `/' for "":String):
+  app/controllers/rating_controller.rb:20:in `index'
+
+Rendered rescues/_trace (31.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:36:23) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:36:46) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:39:17) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"a", "completions"=>"asdf", "touchdowns"=>"f", "yards"=>"asdf", "attempts"=>"yasdf"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+ArgumentError (invalid value for Float(): "a"):
+  app/controllers/rating_controller.rb:6:in `Float'
+  app/controllers/rating_controller.rb:6:in `index'
+  app/controllers/rating_controller.rb:6:in `each'
+  app/controllers/rating_controller.rb:6:in `index'
+
+Rendered rescues/_trace (31.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:43:42) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"a", "completions"=>"asdf", "touchdowns"=>"f", "yards"=>"asdf", "attempts"=>"yasdf"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+ArgumentError (invalid value for Float(): "a"):
+  app/controllers/rating_controller.rb:6:in `Float'
+  app/controllers/rating_controller.rb:6:in `index'
+  app/controllers/rating_controller.rb:6:in `each'
+  app/controllers/rating_controller.rb:6:in `index'
+
+Rendered rescues/_trace (114.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:44:14) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"a", "completions"=>"asdf", "touchdowns"=>"f", "yards"=>"asdf", "attempts"=>"yasdf"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+TypeError (can't convert String into Integer):
+  app/controllers/rating_controller.rb:10:in `[]='
+  app/controllers/rating_controller.rb:10:in `index'
+  app/controllers/rating_controller.rb:10:in `each'
+  app/controllers/rating_controller.rb:10:in `index'
+
+Rendered rescues/_trace (30.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:44:29) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"a", "completions"=>"asdf", "touchdowns"=>"f", "yards"=>"asdf", "attempts"=>"yasdf"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+TypeError (can't convert String into Integer):
+  app/controllers/rating_controller.rb:10:in `[]='
+  app/controllers/rating_controller.rb:10:in `index'
+  app/controllers/rating_controller.rb:10:in `each'
+  app/controllers/rating_controller.rb:10:in `index'
+
+Rendered rescues/_trace (29.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:44:41) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"a", "completions"=>"asdf", "touchdowns"=>"f", "yards"=>"asdf", "attempts"=>"yasdf"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:44:50) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"e", "completions"=>"b", "touchdowns"=>"d", "yards"=>"c", "attempts"=>"a"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:45:55) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:46:29) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:50:17) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+NoMethodError (undefined method `is_numer' for #<RatingController:0xb6fec728>):
+  app/controllers/rating_controller.rb:6:in `index'
+  app/controllers/rating_controller.rb:6:in `each'
+  app/controllers/rating_controller.rb:6:in `index'
+
+Rendered rescues/_trace (32.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:50:29) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:50:40) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"e", "completions"=>"b", "touchdowns"=>"d", "yards"=>"c", "attempts"=>"a"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 17:50:50) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:07:00) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:07:04) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:07:15) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:08:15) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:08:39) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:09:00) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:32:25) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:32:57) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:33:36) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:34:00) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:34:25) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 19:34:43) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 20:41:53) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Completed in 12ms (View: 1, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 20:42:50) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 20:42:57) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 20:44:35) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 20:45:04) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 20:46:54) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:05:44) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:06:02) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:12:45) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:13:16) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:52:26) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+ERROR: compiling _run_erb_app47views47rating47index46html46erb RAISED compile error
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:19: syntax error, unexpected kDO, expecting kEND
+					do |form|
+					  ^
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:91: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47rating47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<table border=\"0\" cellspacing=\"10\" cellpadding=\"10\">\n\t<tr>\n\t\t<td width=\"50%\" valign=\"top\" align=\"center\">\n\t\t\t<div class=\"nflqb-form\">\n\t\t\t\t"
+
+
+
+;  if !@errors.nil? && @errors != false && @errors.count > 0 ; @output_buffer.concat "\n\t\t\t\t\t<div id=\"notice\">\n\t\t\t\t\t\t"
+
+; @output_buffer.concat(( error_messages_for :rating ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t<div style=\"font-weight:bold;color:#B30000;text-align:left;padding-top:0px;margin-top:-5px;\">Please Correct the Following Errors:</div>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t"
+
+
+;  @errors.each do |error| ; @output_buffer.concat "\n\t\t\t\t\t\t\t\t<li>"
+; @output_buffer.concat(( error ).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t"
+
+
+;  end ; @output_buffer.concat "\n\t\t\t\t"
+;  form_remote_for :rating,
+					:url => {:controller => :rating, :action => "index"}
+					
+					do |form|
+				; @output_buffer.concat "\n\t\t\t\t\t<div align=\"center\">\n\t\t\t\t\t\t<fieldset>\n\t\t\t\t\t\t\t<legend>Please Enter the Quarterback&#39;s Statistics</legend>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+
+
+; @output_buffer.concat(( form.label :attempts, "Passing Attempts:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :attempts ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :completions, "Passing Completions:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :completions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :yards, "Passing Yards:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :yards ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :touchdowns, "Passing Touchdowns:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :touchdowns ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :interceptions, "Interceptions:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :interceptions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t"
+
+; @output_buffer.concat(( submit_tag "Calculate!", :class => "submit" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t"
+; @output_buffer.concat(( submit_tag "Reset", { :name => "reset", :class => "reset", :type => "reset" } ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t<br /><br />\n\t\t\t\t\t\t</fieldset>\n\t\t\t\t\t</div>\n\t\t\t\t"
+
+
+
+;  end ; @output_buffer.concat "\n\t\t\t</div>\n\t\t</td>\n\t\t<td width=\"50%\" valign=\"top\" align=\"center\">\n\t\t\t"
+
+
+
+;  if !@results.nil? && @results.count > 0 ; @output_buffer.concat "\n\t\t\t\t<div id=\""
+; @output_buffer.concat(( @results[:rating_color] ).to_s); @output_buffer.concat "\" style=\"padding:20px;width:95%;margin-top:13px;\">\n\t\t\t\t\t<div style=\"display:inline;margin:0;padding:0;\">"
+; @output_buffer.concat(( image_tag(@results[:check_color], :align => 'middle', :border => 0) ).to_s); @output_buffer.concat "</div>\n\t\t\t\t\t<div style=\"display:inline;margin:0;padding:0;float:right;\"><em>Your passer rating is...</em><br /><span style=\"font-size:64px;font-weight:bolder;\">"
+; @output_buffer.concat(( @results[:passer_rating] ).to_s); @output_buffer.concat "</span></div>\n\t\t\t\t\t<br /><br />\n\t\t\t\t\t<div style=\"display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;\">\n\t\t\t\t\t\t<span style=\"height:15px;width:45px;background:#003972;border:1px solid #000000;\">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;\n\t\t\t\t\t\t<span style=\"height:15px;width:45px;background:#1D5F12;border:1px solid #000000;\">&nbsp;&nbsp;&nbsp;</span> = Perfect Rating\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t"
+
+
+
+
+
+
+;  else ; @output_buffer.concat "\n\t\t\t\t<div id=\"facts\">\n\t\t\t\t\t<div style=\"font-weight:bold;color:#003972;text-align:left;border-bottom:1px solid #003972;margin-bottom:10px;font-size:14px;\">Fun Facts About Passer Rating</div>\n\t\t\t\t\t<div style=\"font-style:italic;text-align:center\">Here are some facts about passer rating.</div><br />\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<span>There are 4 ways to calculating passer rating.</span>\n\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t<li><span>"
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "NFL&trade;", "http://nfl.com", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>National Football League</em></span></li>\n\t\t\t\t\t\t\t\t<li><span>"
+; @output_buffer.concat(( link_to "CFL&trade;", "http://cfl.ca", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>Canadian Football League</em></span></li>\n\t\t\t\t\t\t\t\t<li><span>"
+; @output_buffer.concat(( link_to "AFL&trade;", "http://arenafootball.com", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>Arena Football League</em></span></li>\n\t\t\t\t\t\t\t\t<li><span>"
+; @output_buffer.concat(( link_to "NCAA&trade; Football", "http://www.ncaa.com/sports/football", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>College Football</em></span></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<span>To have a &quot;perfect&quot; passer rating (158.3) you must have at least</span>\n\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t<li><span>77.5% Completion Rate</span></li>\n\t\t\t\t\t\t\t\t<li><span>12.5 Yards Per Attempt</span></li>\n\t\t\t\t\t\t\t\t<li><span>1 Touchdown on 11.875% of Attempts</span></li>\n\t\t\t\t\t\t\t\t<li><span>0 Interceptions</span></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\t\t</td>\n\t</tr>\n</table>"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:91:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:19: syntax error, unexpected kDO, expecting kEND
+					do |form|
+					  ^
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:91: syntax error, unexpected kENSURE, expecting $end) on line #19 of app/views/rating/index.html.erb:
+16: 				<% form_remote_for :rating,
+17: 					:url => {:controller => :rating, :action => "index"}
+18: 					
+19: 					do |form|
+20: 				%>
+21: 					<div align="center">
+22: 						<fieldset>
+
+    app/views/rating/index.html.erb:91:in `compile!'
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:53:10) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 92ms (View: 90, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:53:38) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+NoMethodError (undefined method `/' for "":String):
+  app/controllers/rating_controller.rb:20:in `index'
+
+Rendered rescues/_trace (34.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:54:03) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+
+NoMethodError (undefined method `/' for "":String):
+  app/controllers/rating_controller.rb:20:in `index'
+
+Rendered rescues/_trace (30.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:54:43) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:55:21) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:56:52) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+  [4;36;1mSQL (43.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `index' for Rating(Table doesn't exist):Class) on line #16 of app/views/rating/index.html.erb:
+13: 						</ul>
+14: 					</div>
+15: 				<% end %>
+16: 				<% form_remote_for Rating.index :url => {:controller => :rating, :action => "index"} do |form| %>
+17: 					<div align="center">
+18: 						<fieldset>
+19: 							<legend>Please Enter the Quarterback&#39;s Statistics</legend>
+
+    app/views/rating/index.html.erb:16
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:57:05) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+ERROR: compiling _run_erb_app47views47rating47index46html46erb RAISED compile error
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:16: syntax error, unexpected ':', expecting kEND
+;  form_remote_for 'rating' :url => {:controller => :rating...
+                             ^
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:16: syntax error, unexpected kDO, expecting kEND
+...rating, :action => "index"} do |form| ; @output_buffer.conca...
+                              ^
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:87: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47rating47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<table border=\"0\" cellspacing=\"10\" cellpadding=\"10\">\n\t<tr>\n\t\t<td width=\"50%\" valign=\"top\" align=\"center\">\n\t\t\t<div class=\"nflqb-form\">\n\t\t\t\t"
+
+
+
+;  if !@errors.nil? && @errors != false && @errors.count > 0 ; @output_buffer.concat "\n\t\t\t\t\t<div id=\"notice\">\n\t\t\t\t\t\t"
+
+; @output_buffer.concat(( error_messages_for 'rating' ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t<div style=\"font-weight:bold;color:#B30000;text-align:left;padding-top:0px;margin-top:-5px;\">Please Correct the Following Errors:</div>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t"
+
+
+;  @errors.each do |error| ; @output_buffer.concat "\n\t\t\t\t\t\t\t\t<li>"
+; @output_buffer.concat(( error ).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t"
+
+
+;  end ; @output_buffer.concat "\n\t\t\t\t"
+;  form_remote_for 'rating' :url => {:controller => :rating, :action => "index"} do |form| ; @output_buffer.concat "\n\t\t\t\t\t<div align=\"center\">\n\t\t\t\t\t\t<fieldset>\n\t\t\t\t\t\t\t<legend>Please Enter the Quarterback&#39;s Statistics</legend>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+
+
+; @output_buffer.concat(( form.label :attempts, "Passing Attempts:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :attempts ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :completions, "Passing Completions:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :completions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :yards, "Passing Yards:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :yards ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :touchdowns, "Passing Touchdowns:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :touchdowns ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( form.label :interceptions, "Interceptions:" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( form.text_field :interceptions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t"
+
+; @output_buffer.concat(( submit_tag "Calculate!", :class => "submit" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t"
+; @output_buffer.concat(( submit_tag "Reset", { :name => "reset", :class => "reset", :type => "reset" } ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t<br /><br />\n\t\t\t\t\t\t</fieldset>\n\t\t\t\t\t</div>\n\t\t\t\t"
+
+
+
+;  end ; @output_buffer.concat "\n\t\t\t</div>\n\t\t</td>\n\t\t<td width=\"50%\" valign=\"top\" align=\"center\">\n\t\t\t"
+
+
+
+;  if !@results.nil? && @results.count > 0 ; @output_buffer.concat "\n\t\t\t\t<div id=\""
+; @output_buffer.concat(( @results[:rating_color] ).to_s); @output_buffer.concat "\" style=\"padding:20px;width:95%;margin-top:13px;\">\n\t\t\t\t\t<div style=\"display:inline;margin:0;padding:0;\">"
+; @output_buffer.concat(( image_tag(@results[:check_color], :align => 'middle', :border => 0) ).to_s); @output_buffer.concat "</div>\n\t\t\t\t\t<div style=\"display:inline;margin:0;padding:0;float:right;\"><em>Your passer rating is...</em><br /><span style=\"font-size:64px;font-weight:bolder;\">"
+; @output_buffer.concat(( @results[:passer_rating] ).to_s); @output_buffer.concat "</span></div>\n\t\t\t\t\t<br /><br />\n\t\t\t\t\t<div style=\"display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;\">\n\t\t\t\t\t\t<span style=\"height:15px;width:45px;background:#003972;border:1px solid #000000;\">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;\n\t\t\t\t\t\t<span style=\"height:15px;width:45px;background:#1D5F12;border:1px solid #000000;\">&nbsp;&nbsp;&nbsp;</span> = Perfect Rating\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t"
+
+
+
+
+
+
+;  else ; @output_buffer.concat "\n\t\t\t\t<div id=\"facts\">\n\t\t\t\t\t<div style=\"font-weight:bold;color:#003972;text-align:left;border-bottom:1px solid #003972;margin-bottom:10px;font-size:14px;\">Fun Facts About Passer Rating</div>\n\t\t\t\t\t<div style=\"font-style:italic;text-align:center\">Here are some facts about passer rating.</div><br />\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<span>There are 4 ways to calculating passer rating.</span>\n\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t<li><span>"
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "NFL&trade;", "http://nfl.com", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>National Football League</em></span></li>\n\t\t\t\t\t\t\t\t<li><span>"
+; @output_buffer.concat(( link_to "CFL&trade;", "http://cfl.ca", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>Canadian Football League</em></span></li>\n\t\t\t\t\t\t\t\t<li><span>"
+; @output_buffer.concat(( link_to "AFL&trade;", "http://arenafootball.com", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>Arena Football League</em></span></li>\n\t\t\t\t\t\t\t\t<li><span>"
+; @output_buffer.concat(( link_to "NCAA&trade; Football", "http://www.ncaa.com/sports/football", {:target => "_blank"} ).to_s); @output_buffer.concat " <em>College Football</em></span></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<span>To have a &quot;perfect&quot; passer rating (158.3) you must have at least</span>\n\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t<li><span>77.5% Completion Rate</span></li>\n\t\t\t\t\t\t\t\t<li><span>12.5 Yards Per Attempt</span></li>\n\t\t\t\t\t\t\t\t<li><span>1 Touchdown on 11.875% of Attempts</span></li>\n\t\t\t\t\t\t\t\t<li><span>0 Interceptions</span></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\t\t</td>\n\t</tr>\n</table>"
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:87:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:16: syntax error, unexpected ':', expecting kEND
+;  form_remote_for 'rating' :url => {:controller => :rating...
+                             ^
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:16: syntax error, unexpected kDO, expecting kEND
+...rating, :action => "index"} do |form| ; @output_buffer.conca...
+                              ^
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:87: syntax error, unexpected kENSURE, expecting $end) on line #16 of app/views/rating/index.html.erb:
+13: 						</ul>
+14: 					</div>
+15: 				<% end %>
+16: 				<% form_remote_for 'rating' :url => {:controller => :rating, :action => "index"} do |form| %>
+17: 					<div align="center">
+18: 						<fieldset>
+19: 							<legend>Please Enter the Quarterback&#39;s Statistics</legend>
+
+    app/views/rating/index.html.erb:87:in `compile!'
+
+Rendered rescues/_trace (107.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 21:58:03) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:00:52) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:00:56) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:01:14) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:08:03) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:08:07) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 83ms (View: 81, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:11:42) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"0A+GI5VCZYmWuG+/JkP9LzlILrVFw0JjTXnC/KpQjXE="}
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:21:56) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #49 of app/views/rating/index.html.erb:
+46: 		</td>
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;">
+49: 				<div id="<%= @results[:rating_color] %>" style="padding:20px;width:95%;margin-top:13px;">
+50: 					<div style="display:inline;margin:0;padding:0;"><%= image_tag(@results[:check_color], :align => 'middle', :border => 0) %></div>
+51: 					<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;"><%= @results[:passer_rating] %></span></div>
+52: 					<br /><br />
+
+    app/views/rating/index.html.erb:49
+
+Rendered rescues/_trace (43.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:23:36) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #49 of app/views/rating/index.html.erb:
+46: 		</td>
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag(@results[:check_color], :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+
+    app/views/rating/index.html.erb:49
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:23:42) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #49 of app/views/rating/index.html.erb:
+46: 		</td>
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag(@results[:check_color], :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+
+    app/views/rating/index.html.erb:49
+
+Rendered rescues/_trace (37.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:24:01) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-18 22:24:05) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-19 01:57:50) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+
+Rendered rescues/_trace (101.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-19 14:55:59) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+
+Rendered rescues/_trace (44.9ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-19 16:29:12) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+
+Rendered rescues/_trace (45.4ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-19 16:35:17) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (1.5ms)
+Rendered rating/_results_explain (1.2ms)
+Completed in 40ms (View: 38, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-19 20:30:12) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (1.6ms)
+Rendered rating/_results_explain (1.2ms)
+Completed in 305ms (View: 303, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-19 20:51:26) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (37.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 113ms (View: 112, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:22:30) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (1.5ms)
+Rendered rating/_results_explain (1.3ms)
+Completed in 53ms (View: 51, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:31:56) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:32:07) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.1ms)
+
+ActionView::TemplateError (undefined method `page_replace_html' for #<ActionView::Base:0xb70928a8>) on line #2 of app/views/rating/index.js.rjs:
+1: page.replace_html("ajax_facts", :partial => "results")
+2: page_replace_html("results", :partial => "results_explain")
+
+    app/views/rating/index.js.rjs:2:in `_run_rjs_app47views47rating47index46js46rjs'
+    app/views/rating/index.js.rjs:1:in `_run_rjs_app47views47rating47index46js46rjs'
+    app/controllers/rating_controller.rb:44:in `index'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:32:30) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:32:40) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 00:32:52) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 00:32:52) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:34:39) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.8ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:34:43) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.4ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 00:34:50) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 00:34:50) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:36:36) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:42:11) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:42:56) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:43:10) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:43:57) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:44:11) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:44:37) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:44:41) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:45:15) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:45:19) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:51:18) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:56:06) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.4ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 34ms (View: 33, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 00:56:11) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 00:56:11) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:57:01) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (34.2ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 118ms (View: 116, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:57:04) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results_explain (0.1ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:57:58) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.9ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 00:58:01) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results_explain (0.1ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:29:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (1.4ms)
+Rendered rating/_results_explain (1.3ms)
+Completed in 35ms (View: 34, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:30:37) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:30:40) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (7.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 123ms (View: 121, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:30:47) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:30:47) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:31:05) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:31:08) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:31:09) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:31:09) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:37:36) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (1.5ms)
+Rendered rating/_results_explain (1.3ms)
+Completed in 38ms (View: 37, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:37:44) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:39:38) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 96ms (View: 94, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:39:43) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:39:54) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:42:45) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:48:16) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined local variable or method `ratings_url' for #<ActionView::Base:0xb6f2a614>) on line #15 of app/views/rating/index.html.erb:
+12: 						</ul>
+13: 					</div>
+14: 				<% end %>
+15: 				<% form_remote_for 'rating', :url => ratings_url, :loading => "$('#calculating').show();", :complete => "$('#calculating').hide();", :html => {:name => "rating_form"} do |form| %>
+16: 					<div id="calculating" align="center" style="font-family:verdana;display:none;font-weight:bold;color:#003972;">
+17: 						<%= image_tag "spinner.gif", :border => 0 %>&nbsp;Calculating...
+18: 					</div>
+
+    app/views/rating/index.html.erb:15
+    app/controllers/rating_controller.rb:47:in `index'
+
+Rendered rescues/_trace (117.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:48:40) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:48:49) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:48:57) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:50:38) [GET]
+
+SyntaxError (/home/cr4ckp0t/rails/nflqb/app/controllers/rating_controller.rb:55: syntax error, unexpected kEND, expecting '}'
+/home/cr4ckp0t/rails/nflqb/app/controllers/rating_controller.rb:79: syntax error, unexpected kEND, expecting '}'):
+  
+
+Rendered rescues/_trace (28.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:50:53) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:01) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:05) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:07) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:08) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:08) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:08) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:08) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:51:37) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:51:40) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:53:18) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:53:42) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 92ms (View: 90, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:53:50) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:54:25) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:54:28) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:54:39) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:54:43) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:54:44) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:54:44) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"", "completions"=>"", "touchdowns"=>"", "yards"=>"", "attempts"=>""}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+
+ActionController::RoutingError (No route matches "/ratings" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:55:21) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:55:24) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.2ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:55:32) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:55:32) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:55:47) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:55:50) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:55:50) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 01:55:50) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-green.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:56:29) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:56:30) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 25ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:56:33) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:57:30) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (1.4ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:57:33) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:59:41) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (1.3ms)
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 01:59:44) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:00:21) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 441ms (View: 439, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:00:37) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:00:55) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:01:11) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.4ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:02:33) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:02:36) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.3ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:02:50) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 79ms (View: 77, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:02:58) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.3ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:03:08) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.2ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:03:12) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.4ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:03:22) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.2ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:03:56) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:04:00) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.0ms)
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:04:23) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:05:17) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:05:41) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:05:52) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.8ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:05:58) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:06:59) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:07:02) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.2ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:07:18) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:07:22) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:09:50) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:10:01) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:10:42) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:10:46) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendered rating/_results (0.5ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:16:19) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:16:23) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:17:16) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:17:25) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:20:16) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (8.1ms)
+Rendered rating/_results_explain (1.3ms)
+Completed in 98ms (View: 76, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:20:33) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:23:13) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 100ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:23:27) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:26:16) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:26:20) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.6ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:26:29) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s="}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_facts (0.7ms)
+Rendered rating/_results_explain (0.1ms)
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:28:50) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+ERROR: compiling _run_erb_app47views47rating47index46html46erb RAISED compile error
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:65: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47rating47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<table border=\"0\" cellspacing=\"10\" cellpadding=\"10\">\n\t<tr>\n\t\t<td width=\"50%\" valign=\"top\" align=\"center\">\n\t\t\t<div class=\"nflqb-form\">\n\t\t\t\t"
+
+
+
+;  if !@errors.nil? && @errors != false && @errors.count > 0 ; @output_buffer.concat "\n\t\t\t\t\t<div id=\"notice\">\n\t\t\t\t\t\t<div style=\"font-weight:bold;color:#B30000;text-align:left;padding-top:0px;margin-top:-5px;\">Please Correct the Following Errors:</div>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t"
+
+
+
+;  @errors.each do |error| ; @output_buffer.concat "\n\t\t\t\t\t\t\t\t<li>"
+; @output_buffer.concat(( error ).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t"
+
+
+;  end ; @output_buffer.concat "\n\t\t\t\t"
+;  form_tag rating_path, :id => "rating-form" ; @output_buffer.concat "\n\t\t\t\t\t<div id=\"calculating\" align=\"center\" style=\"font-family:verdana;display:none;font-weight:bold;color:#003972;\">\n\t\t\t\t\t\t"
+
+; @output_buffer.concat(( image_tag "spinner.gif", :border => 0 ).to_s); @output_buffer.concat "&nbsp;Calculating...\n\t\t\t\t\t</div>\n\t\t\t\t\t<div align=\"center\">\n\t\t\t\t\t\t<fieldset>\n\t\t\t\t\t\t\t<legend>Please Enter the Quarterback&#39;s Statistics</legend>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+
+
+
+; @output_buffer.concat(( label_tag :attempts ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( text_field_tag :attempts ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( label_tag :completions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( text_field_tag :completions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( label_tag :yards ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( text_field_tag :yards ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( label_tag :touchdowns ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( text_field_tag :touchdowns ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( label_tag :interceptions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t"
+; @output_buffer.concat(( text_field_tag :interceptions ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t"
+
+; @output_buffer.concat(( submit_tag "Calculate!", :class => "submit" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t"
+; @output_buffer.concat(( submit_tag "Reset", { :name => "reset", :class => "reset", :type => "reset" } ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t<br /><br />\n\t\t\t\t\t\t</fieldset>\n\t\t\t\t\t</div>\n\t\t\t\t"
+
+
+
+;  end ; @output_buffer.concat "\n\t\t\t</div>\n\t\t</td>\n\t\t<td width=\"50%\" valign=\"top\" align=\"center\">\n\t\t\t<div id=\"ajax_facts\">\n\t\t\t\t"
+
+
+
+
+; @output_buffer.concat(( render :partial => "facts" ).to_s); @output_buffer.concat "\n\t\t\t</div>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td colspan=\"2\" width=\"100%\">\n\t\t\t<div align=\"center\">\n\t\t\t\t<div id=\"ajax_results\" class=\"results\" align=\"left\">\n\t\t\t\t\t"
+
+
+
+
+
+
+
+; @output_buffer.concat(( render :partial => "results_explain" ).to_s); @output_buffer.concat "\n\t\t\t\t</div>\t\t\t\t\n\t\t\t</div>\n\t\t</td>\n</table>"
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:65:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/cr4ckp0t/rails/nflqb/app/controllers/rating_controller.rb:47:in `index'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/cr4ckp0t/rails/nflqb/app/views/rating/index.html.erb:65: syntax error, unexpected kENSURE, expecting $end) on line #65 of app/views/rating/index.html.erb:
+62: 			</div>
+63: 		</td>
+64: </table>
+
+    app/views/rating/index.html.erb:65:in `compile!'
+    app/controllers/rating_controller.rb:47:in `index'
+
+Rendered rescues/_trace (106.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:30:19) [GET]
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #1 of app/views/rating/_results.html.erb:
+1: <div id="<%= @results[:rating_color] %>" style="padding:20px;width:70%;margin-top:13px;" align="center">
+2: 	<div style="display:inline;margin:0;padding:0;"><%= image_tag(@results[:check_color], :align => 'middle', :border => 0) %></div>
+3: 	<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em;"><%= @results[:passer_rating] %></span></div>
+4: 	<br /><br />
+
+    app/views/rating/_results.html.erb:1
+    app/controllers/rating_controller.rb:49:in `index'
+    app/controllers/rating_controller.rb:47:in `index'
+
+Rendered rescues/_trace (212.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 02:30:40) [GET]
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #1 of app/views/rating/_results.html.erb:
+1: <div id="<%= @results[:rating_color] %>" style="padding:20px;width:70%;margin-top:13px;" align="center">
+2: 	<div style="display:inline;margin:0;padding:0;"><%= image_tag(@results[:check_color], :align => 'middle', :border => 0) %></div>
+3: 	<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em;"><%= @results[:passer_rating] %></span></div>
+4: 	<br /><br />
+
+    app/views/rating/_results.html.erb:1
+    app/controllers/rating_controller.rb:49:in `index'
+    app/controllers/rating_controller.rb:47:in `index'
+
+Rendered rescues/_trace (116.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)

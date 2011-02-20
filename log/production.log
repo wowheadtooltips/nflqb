@@ -204,3 +204,144 @@ Processing RatingController#index (for 94.228.34.235 at 2011-02-18 05:30:22) [GE
 Rendering template within layouts/rating
 Rendering rating/index
 Completed in 18ms (View: 18, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 184.73.30.153 at 2011-02-18 06:45:26) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 197ms (View: 196, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]
+
+
+Processing RatingController#index (for 66.249.67.136 at 2011-02-19 08:15:50) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+    passenger (3.0.2) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+    passenger (3.0.2) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    passenger (3.0.2) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:180:in `start'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.2) helper-scripts/passenger-spawn-server:99
+
+Rendering /home/cr4ckp0t/rails/nflqb/public/500.html (500 Internal Server Error)
+
+
+Processing RatingController#index (for 72.218.217.163 at 2011-02-19 13:39:58) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+    passenger (3.0.2) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+    passenger (3.0.2) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    passenger (3.0.2) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:180:in `start'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.2) helper-scripts/passenger-spawn-server:99
+
+Rendering /home/cr4ckp0t/rails/nflqb/public/500.html (500 Internal Server Error)
+
+
+Processing RatingController#index (for 66.249.67.136 at 2011-02-19 15:21:40) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #50 of app/views/rating/index.html.erb:
+47: 		<td width="50%" valign="top" align="center">
+48: 			<div id="results-perfect" style="display:none;padding:20px;width:95%;margin-top:13px;">
+49: 				<div style="display:inline;margin:0;padding:0;"><%= image_tag("checkmark-green.png", :align => 'middle', :border => 0) %></div>
+50: 				<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em"><%= @results[:passer_rating] %></span></div>
+51: 				<br /><br />
+52: 				<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
+53: 					<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
+
+    app/views/rating/index.html.erb:50
+    passenger (3.0.2) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+    passenger (3.0.2) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    passenger (3.0.2) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:180:in `start'
+    passenger (3.0.2) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.2) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.2) helper-scripts/passenger-spawn-server:99
+
+Rendering /home/cr4ckp0t/rails/nflqb/public/500.html (500 Internal Server Error)
+
+
+Processing RatingController#index (for 66.249.67.136 at 2011-02-19 22:34:59) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://nflqb.crackpot.ws/]

@@ -2,84 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>NFL Quarterback Rating Calculator, Powered by Ruby on Rails</title>
+		<title>NFL Quarterback Rating Calculator</title>
 		<link rel="shortcut icon" href="/favicon.ico" />
-		<%= stylesheet_link_tag 'master', :media => 'all' %>
-		<%= javascript_include_tag :defaults %>
+		<%= stylesheet_link_tag "master", :media => "all" %>
+		<%= javascript_include_tag "jquery" %>
+		<%= javascript_include_tag "jquery-ui" %>
+		<%= javascript_include_tag "jrails" %>
 	</head>
 	<body>
 		<div align="center">
 			<div class="logo" align="center">QUARTERBACK<br />RATING<br />CALCULATOR</div>
-			<div align="center" style="width:70%;display:block;">
+			<div align="center" style="width:60%;display:block;">
 				<%= yield %>
-			</div>
-			<br />
-			<div align="center">
-				<div id="results" align="left">
-					<% if @results.nil? || @results.count == 0 %>
-						<div style="font-weight:bold;color:#003972;text-align:left;border-bottom:1px solid #003972;margin-bottom:10px;font-size:14px;">How to calculate an NFL quarterback&#39;s passer rating...</div>
-						<div style="font-style:italic;text-align:center">They say that calculating an NFL quarterback&#39;s passer rating is the most complicated statistic in sports.  Here is how to do it.</div><br />
-						<ol>
-							<li><span>The passer rating is the sum of 4 values <tt>a</tt>, <tt>b</tt>, <tt>c</tt>, and <tt>d</tt>.  These values are derived from a set of formulas.  Also the values of <tt>a</tt>, <tt>b</tt>, <tt>c</tt>, and <tt>d</tt> can not be less than zero (&lt; 0) or greater than 2.375 (%gt; 2.375), otherwise the stats are invalid and can not be used to get a valid reading.</span></li>
-							<li><span>The "perfect" passer rating is <strong>158.3</strong></span></li>
-							<li><span>Calculate the <tt>a</tt> value with: <pre>a = (completions / attempts - 0.3) * 5.0</pre></span>
-								<ul><li><span>This is the number of completions divided by the number of attempts then subtract 0.3, and multiply that by 5.</span></li></ul>
-							</li>
-							<li><span>Calculate the <tt>b</tt> value with: <pre>b = (touchdowns / attempts) * 20.0</pre></span>
-								<ul><li><span>This is the number of touchdowns divided by the number of attempts, multiplied by 20.</span></li></ul>
-							</li>
-							<li><span>Calculate the <tt>c</tt> value with: <pre>c = 2.375 - (interceptions / attempts * 25.0)</pre></span>
-								<ul><li><span>This is 2.375 minus the number of interceptions divided by attempts, multiplied by 25.</span></li></ul>
-							</li>
-							<li><span>Calculate the <tt>d</tt> value with: <pre>d = (yards / attempts - 3.0) * 0.25</pre></span>
-								<ul><li><span>This is the yards divided by the number of attempts, subtract 3, and then multiply by 0.25.</span></li></ul>
-							</li>
-							<li><span>Finally calculate the passer rating with: <pre>QB Rating = ((a + b + c + d) / 6.0) * 100</pre></span>
-								<ul><li><span>Add the values of <tt>a</tt>, <tt>b</tt>, <tt>c</tt>, <tt>d</tt> and divide that by 6.0, and multiply that by 100.</span></li></ul>
-							</li>
-						</ol>
-					<% else %>
-						<div style="font-weight:bold;color:#003972;text-align:left;border-bottom:1px solid #003972;margin-bottom:10px;font-size:14px;">The Results!!!</div>
-						<div style="font-style:italic;text-align:center">If any of the 4 calculation&#39;s value are less than 0 or greater than 2.375, then their value is changed to 0 and 2.375 respectively.</div><br />
-						<ul>
-							<li>
-								<span>
-									Your passer rating is <strong><%= @results[:passer_rating] %></strong>
-									<pre class="orig">QB Rating = ((a + b + c + d) / 6.0) * 100</pre>
-									<pre>((<%= @results[:completions_per] %> + <%= @results[:touchdowns_per] %> + <%= @results[:interceptions_per] %> + <%= @results[:yards_per] %>) / 6.0) * 100 = <%= @results[:passer_rating] %></pre>
-								<span>
-							</li>
-							<li>
-								<span>
-									Your percentage of completions (<tt>a</tt>) is <strong><%= @results[:completions_per] %></strong>
-									<pre class="orig">a = (completions / attempts - 0.3) * 5.0</pre>
-									<pre>(<%= @results[:completions] %> / <%= @results[:attempts] %> - 0.3) * 5.0 = <%= @results[:completions_per] %>(a)</pre>
-								</span>
-							</li>
-							<li>
-								<span>
-									Your percentage of touchdown passes (<tt>b</tt>) is <strong><%= @results[:touchdowns_per] %></strong>
-									<pre class="orig">b = (touchdowns / attempts) * 20.0</pre>
-									<pre>(<%= @results[:touchdowns] %> / <%= @results[:attempts] %>) * 20.0 = <%= @results[:touchdowns_per] %>(b)</pre>
-								</span>
-							</li>
-							<li>
-								<span>
-									Your percentage of interceptions (<tt>c</tt>) is <strong><%= @results[:interceptions_per] %></strong>
-									<pre class="orig">c = 2.375 - (interceptions / attempts * 25.0)</pre>
-									<pre>2.375 - (<%= @results[:inteceptions] %> / <%= @results[:attempts] %> * 25.0) = <%= @results[:interceptions_per] %>(c)</pre>
-								</span>
-							</li>
-							<li>
-								<span>
-									Your average yards gained per attempt is <strong><%= @results[:yards_per] %></strong>
-									<pre class="orig">QB Rating = ((a + b + c + d) / 6.0) * 100</pre>
-									<pre>(<%= @results[:yards] %> / <%= @results[:attempts] %> - 3.0) * 0.25 = <%= @results[:yards_per] %>(d)</pre>
-								</span>
-							</li>
-						</ul>
-					<% end %>
-				</div>				
 			</div>
 		</div>
 		<div class="footer">

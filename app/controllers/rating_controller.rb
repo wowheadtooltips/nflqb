@@ -1,13 +1,15 @@
 class RatingController < ApplicationController
+	layout "rating"
+
   def index  
   	# see if they submitted the form
   	if !params[:commit].nil? && params[:commit].downcase.gsub('!', '') == 'calculate'
   		fields = params[:rating]						# get the field values from the form input
-  		fields.each {|key, value| fields[key] = Float(value) if !value.nil? && !value.empty?}
+  		fields.each {|key, value| fields[key] = Float(value) if !value.nil? && !value.empty? && is_numeric(value)}
   		@errors = validate_fields(fields)		# perform basic validation
-
+			
   		# if there were no errors, we can continue
-  		if !@errors.nil? && @errors != false
+  		if !@errors.nil? && @errors.empty? && @errors.count == 0
   			# setup a variable for each field value	
   			attempts = fields[:attempts]
   			completions = fields[:completions]
@@ -35,14 +37,25 @@ class RatingController < ApplicationController
   				:interceptions_per	=> interceptions_per.round(4).to_s,
   				:yards_per	=> yards_per.round(4).to_s,
   				:passer_rating	=> passer_rating.round(1).to_s,
-  				:rating_color => passer_rating.round(1).to_s == '158.3' ? 'results-perfect' : 'results-normal',
-  				:check_color => passer_rating.round(1).to_s == '158.3' ? 'checkmark-green.png' : 'checkmark-blue.png'
+  				:rating_color => (passer_rating.round(1) == 158.3) ? "results-perfect" : "results-normal",
+  				:check_color => (passer_rating.round(1) == 158.3) ? "checkmark-green.png" : "checkmark-blue.png"
   			}
+  			@results
   		end
+  	end
+  	
+  	respond_to do |format|
+  		format.html	# normal viewing
+  		format.js
   	end
   end
   
 private
+	# checks if a given value is numeric
+	def is_numeric(value)
+		Float(value) != nil rescue false
+	end
+
 	# make sure a field is a number and >= 0
 	# if not, it will return an error message.
 	def validate_fields(fields)

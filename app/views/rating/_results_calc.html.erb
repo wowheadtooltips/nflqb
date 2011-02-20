@@ -1,0 +1,41 @@
+<div id="results-calc" style="display:none;">
+	<div style="font-weight:bold;color:#003972;text-align:left;border-bottom:1px solid #003972;margin-bottom:10px;font-size:14px;">The Results!!!</div>
+	<div style="font-style:italic;text-align:center">If any of the 4 calculation&#39;s value are less than 0 or greater than 2.375, then their value is changed to 0 and 2.375 respectively.</div><br />
+	<ul>
+		<li>
+			<span>
+				Your passer rating is <strong><%= @results[:passer_rating] %></strong>
+				<pre class="orig">QB Rating = ((a + b + c + d) / 6.0) * 100</pre>
+				<pre>((<%= @results[:completions_per] %> + <%= @results[:touchdowns_per] %> + <%= @results[:interceptions_per] %> + <%= @results[:yards_per] %>) / 6.0) * 100 = <%= @results[:passer_rating] %></pre>
+			<span>
+		</li>
+		<li>
+			<span>
+				Your percentage of completions (<tt>a</tt>) is <strong><%= @results[:completions_per] %></strong>
+				<pre class="orig">a = (completions / attempts - 0.3) * 5.0</pre>
+				<pre>(<%= @results[:completions] %> / <%= @results[:attempts] %> - 0.3) * 5.0 = <%= @results[:completions_per] %>(a)</pre>
+			</span>
+		</li>
+		<li>
+			<span>
+				Your percentage of touchdown passes (<tt>b</tt>) is <strong><%= @results[:touchdowns_per] %></strong>
+				<pre class="orig">b = (touchdowns / attempts) * 20.0</pre>
+				<pre>(<%= @results[:touchdowns] %> / <%= @results[:attempts] %>) * 20.0 = <%= @results[:touchdowns_per] %>(b)</pre>
+			</span>
+		</li>
+		<li>
+			<span>
+				Your percentage of interceptions (<tt>c</tt>) is <strong><%= @results[:interceptions_per] %></strong>
+				<pre class="orig">c = 2.375 - (interceptions / attempts * 25.0)</pre>
+				<pre>2.375 - (<%= @results[:inteceptions] %> / <%= @results[:attempts] %> * 25.0) = <%= @results[:interceptions_per] %>(c)</pre>
+			</span>
+		</li>
+		<li>
+			<span>
+				Your average yards gained per attempt is <strong><%= @results[:yards_per] %></strong>
+				<pre class="orig">QB Rating = ((a + b + c + d) / 6.0) * 100</pre>
+				<pre>(<%= @results[:yards] %> / <%= @results[:attempts] %> - 3.0) * 0.25 = <%= @results[:yards_per] %>(d)</pre>
+			</span>
+		</li>
+	</ul>
+</div>
