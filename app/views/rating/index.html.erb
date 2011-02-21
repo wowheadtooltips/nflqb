@@ -13,9 +13,7 @@
 					</div>
 				<% end %>
 				<% form_remote_for 'rating', :url => {:controller => "rating", :action => "index"}, 
-					:loading => "$('#calculating').show();", :complete => "$('#calculating').hide();", 
-					:html => {:name => "rating_form"}, 
-					:update => {:success => "ajax_results", :failure => "notice"} do |form| %>
+					:loading => "$('#calculating').show();", :complete => "$('#calculating').hide();" do |form| %>
 					<div id="calculating" align="center" style="font-family:verdana;display:none;font-weight:bold;color:#003972;">
 						<%= image_tag "spinner.gif", :border => 0 %>&nbsp;Calculating...
 					</div>
@@ -51,18 +49,39 @@
 			</div>
 		</td>
 		<td width="50%" valign="top" align="center">
-			<div id="ajax_facts">
-				<%= render :partial => "facts" %>
+			<div id="results">
+				<%= render :partial => "default" %>
 			</div>
 		</td>
 	</tr>
-	<tr><td>&nbsp;</td></tr>
+	<tr><td colspan="2">&nbsp;</td></tr>
 	<tr>
 		<td colspan="2">
 			<div align="center">
-				<div id="ajax_results" class="results" align="left">
-					<%= render :partial => "results_explain" %>
-				</div>				
+				<div id="results-explain" class="results" align="left">
+					<div style="font-weight:bold;color:#003972;text-align:left;border-bottom:1px solid #003972;margin-bottom:10px;font-size:14px;">How to calculate an NFL quarterback&#39;s passer rating...</div>
+					<div style="font-style:italic;text-align:center">They say that calculating an NFL quarterback&#39;s passer rating is the most complicated statistic in sports.  Here is how to do it.</div><br />
+					<ol>
+						<li><span>The passer rating is the sum of 4 values <tt>a</tt>, <tt>b</tt>, <tt>c</tt>, and <tt>d</tt>.  These values are derived from a set of formulas.  Also the values of <tt>a</tt>, <tt>b</tt>, <tt>c</tt>, and <tt>d</tt> can not be less than zero (&lt; 0) or greater than 2.375 (%gt; 2.375), otherwise the stats are invalid and can not be used to get a valid reading.</span></li>
+						<li><span>The "perfect" passer rating is <strong>158.3</strong></span></li>
+						<li><span>Calculate the <tt>a</tt> value with: <pre>a = (completions / attempts - 0.3) * 5.0</pre></span>
+							<ul><li><span>This is the number of completions divided by the number of attempts then subtract 0.3, and multiply that by 5.</span></li></ul>
+						</li>
+						<li><span>Calculate the <tt>b</tt> value with: <pre>b = (touchdowns / attempts) * 20.0</pre></span>
+							<ul><li><span>This is the number of touchdowns divided by the number of attempts, multiplied by 20.</span></li></ul>
+						</li>
+						<li><span>Calculate the <tt>c</tt> value with: <pre>c = 2.375 - (interceptions / attempts * 25.0)</pre></span>
+							<ul><li><span>This is 2.375 minus the number of interceptions divided by attempts, multiplied by 25.</span></li></ul>
+						</li>
+						<li><span>Calculate the <tt>d</tt> value with: <pre>d = (yards / attempts - 3.0) * 0.25</pre></span>
+							<ul><li><span>This is the yards divided by the number of attempts, subtract 3, and then multiply by 0.25.</span></li></ul>
+						</li>
+						<li><span>Finally calculate the passer rating with: <pre>QB Rating = ((a + b + c + d) / 6.0) * 100</pre></span>
+							<ul><li><span>Add the values of <tt>a</tt>, <tt>b</tt>, <tt>c</tt>, <tt>d</tt> and divide that by 6.0, and multiply that by 100.</span></li></ul>
+						</li>
+					</ol>
+				</div>
 			</div>
 		</td>
+	</tr>
 </table>

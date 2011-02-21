@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: verdana;
 }
 body {
 	background-color: #ffffff;
@@ -14,11 +15,11 @@ body {
 }
 a:link, a:active, a:visited {
 	text-decoration: none;
-	color: #B30000;
+	color: #003972;
 }
 a:hover {
 	text-decoration: underline;
-	color: #B30000;
+	color: #003972;
 }
 tt {
 	color: #003972;
@@ -93,11 +94,11 @@ div.results {
 }
 div.results pre {
 	color: #003972;
-	font-weight: bold;
+	font-family: courier;
 }
 div.results pre.orig {
 	color: #1D5F12;
-	font-weight: bold;
+	font-family: courier;
 }
 div.results ol, div.results ul {
 	font-weight: bold;
@@ -119,6 +120,7 @@ div#results-perfect {
 	font-size: 14px;
 	border: 2px solid #1D5F12;
 }
+
 div#results-normal {
 	border: 2px solid #003972;
 	font-family: sans-serif;
@@ -126,6 +128,62 @@ div#results-normal {
 	text-align: center;
 	color: #003972;
 	font-size: 14px;
+}
+div#results-perfect ul, div#results-normal ul {
+	font-weight: bold;
+}
+div#results-perfect ul li, div#results-normal ul li {
+	margin-left: 10px;
+	padding-left: 5px;
+}
+div#results-perfect ul li span, div#results-normal ul li span {
+	font-weight: normal;
+}
+div#results-perfect ul li div {
+	display: inline;
+	float: right;
+	font-family: courier;
+	color: #1D5F12;
+	font-weight: bold;
+}
+div#results-normal ul li div {
+	display: inline;
+	float: right;
+	font-family: courier;
+	color: #003972;
+	font-weight: bold;
+}
+div#results-perfect tt {
+	color: #1D5F12;
+	font-family: courier;
+	font-size: 10px;
+	font-weight: bold;
+}
+div#results-normal tt {
+	color: #003972;
+	font-family: courier;
+	font-size: 10px;
+	font-weight: bold;
+}
+div#results-normal a:link, div#results-normal a:active, div#results-normal a:visited {
+	color: #003972;
+	text-decoration: none;
+	font-family: verdana;
+}
+div#results-normal a:hover {
+	color: #003972;
+	text-decoration: underline;
+	font-family: verdana;
+}
+div#results-perfect a:link, div#results-perfect a:active, div#results-perfect a:visited {
+	color: #1D5F12;
+	text-decoration: none;
+	font-family: verdana;
+}
+div#results-perfect a:hover {
+	color: #1D5F12;
+	text-decoration: underline;
+	font-family: verdana;
 }
 
 /* fun facts */

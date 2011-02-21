@@ -6925,3 +6925,334 @@ The error occurred while evaluating nil.[]) on line #1 of app/views/rating/_resu
 Rendered rescues/_trace (116.9ms)
 Rendered rescues/_request_and_response (0.3ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:22:44) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (2.6ms)
+Completed in 34ms (View: 33, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:23:05) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (2.7ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:23:17) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (3.2ms)
+Completed in 232ms (View: 230, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:23:56) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:24:49) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.7ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:25:03) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 43ms (View: 41, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:32:43) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (3.1ms)
+Completed in 38ms (View: 37, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:32:55) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:35:38) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.5ms)
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:35:50) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_calculated (2.9ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 16:35:50) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-blue.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 16:35:50) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-blue.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:37:14) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:37:18) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_calculated (2.8ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 16:37:18) [GET]
+  Parameters: {"1297955082\\\\\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%5C%5C%22/images/checkmark-blue.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 98.84.98.50 at 2011-02-20 16:37:18) [GET]
+  Parameters: {"1297955082\\\""=>nil}
+
+ActionController::RoutingError (No route matches "/%5C%22/images/checkmark-blue.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:39:25) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:39:29) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_calculated (0.5ms)
+Completed in 72ms (View: 70, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:48:53) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (2.6ms)
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:50:59) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (2.6ms)
+Completed in 34ms (View: 32, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:51:10) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (2.7ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:51:26) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:51:31) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.6ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:58:14) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.5ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 16:58:19) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (3.5ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:01:19) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (1.5ms)
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:01:43) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.4ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:11:43) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.7ms)
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:11:47) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.6ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:12:03) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.8ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:15:09) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (63.7ms)
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:15:26) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:15:40) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:16:22) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:16:26) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:16:40) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.7ms)
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 17:16:43) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.5ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 19:48:42) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (1.4ms)
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 19:48:46) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.5ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 19:49:24) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.8ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 19:49:45) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"15", "completions"=>"255", "touchdowns"=>"23", "yards"=>"3000", "attempts"=>"441"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.5ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 20:26:28) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (1.5ms)
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 20:26:32) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (1.8ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 20:41:25) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.6ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 20:41:26) [GET]
+Rendering template within layouts/rating
+Rendering rating/index
+Rendered rating/_default (0.6ms)
+Completed in 127ms (View: 51, DB: 0) | 200 OK [http://208.64.31.8/]
+
+
+Processing RatingController#index (for 98.84.98.50 at 2011-02-20 20:41:29) [POST]
+  Parameters: {"rating"=>{"interceptions"=>"0", "completions"=>"18", "touchdowns"=>"5", "yards"=>"371", "attempts"=>"23"}, "commit"=>"Calculate!", "authenticity_token"=>"zTD2rL/a6OImMbH3TH9/nhBc/4KgBY5v5av2sfrF82s=", "reset"=>"Reset"}
+Rendering rating/index
+Rendered rating/_results (0.7ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://208.64.31.8/]

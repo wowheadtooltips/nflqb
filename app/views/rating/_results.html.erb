@@ -1,9 +1,23 @@
 <div id="<%= @results[:rating_color] %>" style="padding:20px;width:70%;margin-top:13px;" align="center">
 	<div style="display:inline;margin:0;padding:0;"><%= image_tag(@results[:check_color], :align => 'middle', :border => 0) %></div>
-	<div style="display:inline;margin:0;padding:0;float:right;"><em>Your passer rating is...</em><br /><span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em;"><%= @results[:passer_rating] %></span></div>
+	<div style="display:inline;margin:0;padding:0;float:right;">
+		<em>Your passer rating is...</em><br />
+		<span style="font-size:64px;font-weight:bolder;text-shadow:gray 0.1em 0.1em 0.2em;"><%= @results[:passer_rating] %></span>
+	</div>
 	<br /><br />
 	<div style="display:block;text-align:center;color:#000000;font-size:10px;margin:0;padding:0;">
 		<span style="height:15px;width:45px;background:#003972;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Regular Rating&nbsp;&nbsp;
 		<span style="height:15px;width:45px;background:#1D5F12;border:1px solid #000000;">&nbsp;&nbsp;&nbsp;</span> = Perfect Rating
 	</div>
+	<br />
+	<div align="left">
+		<ul>
+			<li><span>% of Completions (<tt>a</tt>):</span>&nbsp;&nbsp;<div><%= @results[:completions_per] %></div></span></li>
+			<li><span>% of Touchdown Passes (<tt>b</tt>):</span>&nbsp;&nbsp;<div><%= @results[:touchdowns_per] %></div></span></li>
+			<li><span>% of Interceptions (<tt>c</tt>):</span>&nbsp;&nbsp;<div><%= @results[:interceptions_per] %></div></span></li>
+			<li><span>Average Yards Per Attempt (<tt>d</tt>):</span>&nbsp;&nbsp;<div><%= @results[:yards_per] %></div></span></li>
+		</ul>
+	</div>
+	<br />
+	<div align="center"><%= link_to "Reset", {:action => "index"} %></div>
 </div>
